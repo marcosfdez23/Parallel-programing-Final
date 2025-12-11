@@ -1,0 +1,12 @@
+Firstly, to run it you must have installed numpy Pillow. You can install it with this command: pip install numpy Pillow.
+After that, place the input image (input.png) in the same folder as main.py.
+Inside the code, put the name of the file here (line 109):  input_path = "input.png"           # put here any test image 
+You can also change the sie of the output image and the number of processors.
+Run the program with python main.py
+Parameter	          Description
+num_processes	      Number of processes used in multiprocessing (1, 2, 4, 8).
+input_path	        Path to the input image (default: input.png).
+output_size	        Target dimensions of the resized image (1000×1000, 2000×2000, 3000×3000 in the experiments).
+scale factors	      Derived from input/output sizes for nearest-neighbor coordinate mapping.
+Dataset Citation
+The dataset used consists of a single local image (input.png)
